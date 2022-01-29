@@ -1134,7 +1134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHp: 100
   Hp: 0
-  HpRegan: 10
+  HpRegan: 5
 --- !u!114 &15475198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1163,6 +1163,17 @@ MonoBehaviour:
   - Name: Attack
     activation: 0
     Clip: {fileID: 8300000, guid: 49a13381cff17344baa8c352dddea88d, type: 3}
+    Loop: 0
+    HearEveryWhere: 0
+    MinRange: 3
+    MaxRange: 20
+    Volume: 1
+    Pitch: 1.3
+    RandomizedPitch: 0.1
+    source: {fileID: 0}
+  - Name: Ouch
+    activation: 0
+    Clip: {fileID: 8300000, guid: ac6edc9a6173b5c429a47652fef5dd92, type: 3}
     Loop: 0
     HearEveryWhere: 0
     MinRange: 3
